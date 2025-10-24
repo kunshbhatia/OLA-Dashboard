@@ -13,21 +13,6 @@ This dashboard enables business users and analysts to monitor key metrics such a
 - Drill-down capabilities to explore cancellations by customer vs driver.  
 - Clean, readable visuals suitable for business stakeholders.
 
----
-
-## 📊 Data & Metrics
-
-### Data Source  
-- The dataset is expected to be a flat table (e.g., `July` table) containing ride-level records.  
-- Key columns include: `Booking_Status`, `Cancel_By_Customer`, `Cancel_By_Driver`, timestamps, ride identifiers, and other ride attributes.
-
-### Sample Metrics  
-- **Total Bookings** = COUNTROWS( July )  
-- **Cancelled Bookings** = CALCULATE( COUNTROWS( July ), July[Booking_Status] IN { "Canceled_Rides_by_Customer", "Canceled_Rides_by_Driver" } )  
-- **Cancellation %** = DIVIDE( [CancelledBookings], [TotalBookings], 0 )
-
----
-
 ## 🛠 Setup & Installation
 
 1. Clone or download this repository  
