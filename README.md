@@ -3,7 +3,11 @@
 A Power BI based dashboard built for visualising and analysing ride-booking data from OLA Cabs.  
 This dashboard enables business users and analysts to monitor key metrics such as total rides, cancellations, sources of cancellation, ride trends over time, and more.
 
-![Alt Text](Dashboards/Ola-Slidesuhub-4.jpg)
+![First Slide](Dashboards/main/d1)
+![Second Slide](Dashboards/main/d2)
+![Third Slide](Dashboards/main/d3)
+![Fourth Slide](Dashboards/main/d4)
+![Fifth Slide](Dashboards/main/d5)
 
 ---
 
